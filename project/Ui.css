@@ -23,8 +23,9 @@ body {
     display: flex; /* Arrange elements horizontally */
     justify-content:space-between; /* Distribute elements evenly */
     align-items: center; /* Align vertically */
-    width: 80%;
-    margin: 0 auto; /* Center the container horizontally */
+    width: 100%;
+    margin:10px;
+    /* Center the container horizontally */
   }
   
   h1 {
@@ -133,7 +134,7 @@ left: 600px;
 }
 .bgImg img{
 object-fit: cover;
-width: 1600px;
+width: 1500px;
 height: 670px;
 }
 
@@ -163,12 +164,12 @@ height: 670px;
     margin-bottom: 10px;
     width: 200px; /* Adjust width as needed */
     border-radius: 5%;
-    color: #ffffff; /* Dark gray text color */
+    color:white /* Dark gray text color */
   }
   
   .feature-box h3:hover {
     font-weight: bold;
-    color: #f79d9d; /* White color on hover */
+    color: #050303; /* White color on hover */
     margin-bottom: 10px;
     text-decoration: underline;
     width: 200px; /* Adjust width as needed */
@@ -178,14 +179,14 @@ height: 670px;
   }
   
   .box-p  {
-    width: 200px;
+    width: 300px;
     line-height: 1.5;
-    font-size: 1rem; /* Adjust font size */
-    color: #fffcfc; /* Light gray text color */
+    font-size: 1.5rem; /* Adjust font size */
+    color:white; /* Light gray text color */
   }
   
   .box-p:hover {
-    color: #ffa8a8; /* Dark gray color on hover */
+    color: #000000; /* Dark gray color on hover */
     text-decoration: underline; /* Underline on hover */
     transform: scale(1.1); /* Scale up on hover */
     transition: transform 0.4s ease-in-out, color 0.2s ease-in-out; /* Smooth transitions */
